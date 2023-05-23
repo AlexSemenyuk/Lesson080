@@ -3,9 +3,9 @@ insert into roles (mean)
 VALUES ('User'), ('Admin');
 
 insert into users (first_name, last_name, avatar, login, password, role_id)
-VALUES ('Oleg', 'Luchenko', 'none', 'admin', 'admin', 1),
-       ('Vitek', 'Verepianko', 'none', 'vitek', '123', 2),
-       ('Anna', 'Yaschenko', 'none', 'anna', '321', 2),
+VALUES ('Oleg', 'Luchenko', 'none', 'admin', 'admin', 2),
+       ('Vitek', 'Verepianko', 'none', 'vitek', '123', 1),
+       ('Anna', 'Yaschenko', 'none', 'anna', '321', 1),
 	   ('Alex', 'Semenyuk', 'https://www.vhv.rs/dpng/d/276-2761771_transparent-avatar-png-vector-avatar-icon-png-png.png', 'alex', '111', 2);
  
 
