@@ -196,7 +196,7 @@
 <script>
     function getAttributeFromTarget(target) {
         const postId = target.getAttribute('data-id');
-        fetch("/Lesson080/post", {
+        fetch("<c:url value="/post"/>", {
             method: "POST",
             headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
             body: `id=\${postId}`
